@@ -11,7 +11,7 @@ max_projects = 3
 show_projects_first = false
 +++
 
-I'm a **pre-final-year B.Tech student** passionate about backend engineering, cloud-native technologies, and developer tooling.
+I'm a **pre-final-year B.Tech student** exploring backend engineering, cloud-native technologies, and developer tooling.
 
 Currently exploring **Go, Java, Kubernetes, Docker, PostgreSQL, and DevOps** by building real-world projects and documenting what I learn along the way.
 
