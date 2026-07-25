@@ -1,0 +1,66 @@
+base_url = "http://127.0.0.1:1111"
+theme = "tabi"
+
+title = "~/laksh"
+description = "Backend Engineer • DevOps • Open Source"
+author = "Lakshya"
+
+default_language = "en"
+
+compile_sass = true
+minify_html = true
+build_search_index = true
+generate_feeds = true
+
+taxonomies = [
+    { name = "tags", feed = true }
+]
+
+[markdown]
+bottom_footnotes = true
+smart_punctuation = true
+external_links_class = "external"
+github_alerts = true
+
+[markdown.highlighting]
+theme = "catppuccin-frappe"
+style = "class"
+error_on_missing_language = true
+
+[extra]
+author = "Lakshya"
+
+skin = "teal"
+
+theme_switcher = true
+default_theme = ""
+
+show_author = false
+show_reading_time = true
+show_date = true
+show_previous_next_article_links = false
+
+quick_navigation_buttons = false
+toc = false
+
+copy_button = true
+code_block_name_links = false
+force_codeblock_ltr = true
+
+enable_cards_tag_filtering = true
+
+separator = "|"
+
+menu = [
+    { name = "home", url = "/", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
+]
+
+socials = [
+{ name = "GitHub", url = "https://github.com/lakshya-8000cr", icon = "github" },
+{ name = "LinkedIn", url = "https://www.linkedin.com/in/lakshya-chauhan-297715331/", icon = "linkedin" },
+{ name = "Resume", url = "/Lakshya (2).pdf", icon = "resume" },
+{ name = "Youtube", url = "https://youtube.com/@lakshya.net", icon = "youtube" },
+]
