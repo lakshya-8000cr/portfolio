@@ -1,0 +1,6 @@
+{
+  "buildCommand": "zola build",
+  "outputDirectory": "public",
+  "framework": null,
+  "installCommand": "asdf plugin add zola https://github.com/asdf-community/asdf-zola.git && asdf install zola latest && asdf global zola latest"
+}
