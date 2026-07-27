@@ -3,7 +3,7 @@ title = "Home"
 template = "index.html"
 
 [extra]
-header = { title = "Hello! , I'm Lakshya", img = "devil.png", img_alt = "Lakshya" }
+header = { title = "Hello , I'm Lakshya", img = "devil.png", img_alt = "Lakshya" }
 section_path = "blog/_index.md"
 projects_path = "projects/_index.md"
 max_posts = 4

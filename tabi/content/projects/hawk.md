@@ -5,6 +5,7 @@ date = 2026-07-23
 
 [extra]
 local_image = "hawk.png"
+link_to = "https://github.com/lakshya-8000cr/Hawk"
 
 [taxonomies]
 tags = ["Kubernetes", "CLI", "platform engineering", "DevOps"]
