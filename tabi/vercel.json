@@ -1,6 +1,6 @@
 {
-  "buildCommand": "zola build",
-  "outputDirectory": "public",
+  "buildCommand": "curl -sL https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-unknown-linux-gnu.tar.gz | tar -xz && ./zola build",
   "framework": null,
-  "installCommand": "asdf plugin add zola https://github.com/asdf-community/asdf-zola.git && asdf install zola latest && asdf global zola latest"
+  "installCommand": "asdf plugin add zola https://github.com/asdf-community/asdf-zola.git && asdf install zola latest && asdf global zola latest",
+  "outputDirectory": "public"
 }
